@@ -1,0 +1,13 @@
+Snow_DBT:
+  outputs:
+    dev:
+      account: MRIEGMH-PI87971
+      database: snow_dbt_db
+      password: Praltimsnow@25
+      role: ACCOUNTADMIN
+      schema: snow_dbt_sc
+      threads: 1
+      type: snowflake
+      user: Pramod67
+      warehouse: COMPUTE_WH
+  target: dev

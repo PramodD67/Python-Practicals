@@ -1,0 +1,27 @@
+a = "Hello, World!"
+print(a[1])
+#Python does not have a character data type, a single character is simply a string with a length of 1.
+# Square brackets can be used to access elements of the string
+
+
+# Multiline Strings
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+#Looping Through a String
+for x in "Pramod":
+    print(x)
+
+#String Length
+x="python"
+print(len(x))
+
+
+#Check if "H" is present in the string:
+a=" Hello, World! "
+print("H" in a) #True
+
+
